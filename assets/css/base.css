@@ -1,0 +1,72 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+}
+
+* {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    color: var(--black-color);
+}
+
+.icon-font-size-15 {
+    font-size: 15px;
+}
+
+.map-fontsize {
+    font-size: 15px;
+}
+
+.fa-header-colo-red {
+    color: red;
+}
+
+.footer__text--color {
+    color: #888;
+}
+
+.footer-img:hover {
+    cursor: pointer;
+}
+
+.btn--image {
+    position: absolute;
+    bottom: 6px;
+    left: 5px;
+}
+
+.icon {
+    padding-right: 2px;
+}
+
+.start--select {
+    font-size: 12px;
+    color: #f8ba04;
+}
+
+.btn {
+    color: #424242;
+    font-weight: 700;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 15px 20px 14px;
+    background: #fff;
+    text-transform: uppercase;
+    display: block;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: #8262b5;
+}
